@@ -1,0 +1,15 @@
+marks=int(input("enter your marks"))
+if (marks>=90):
+  print("A")
+  print("excellent")
+elif (marks>=70):
+  print("B")
+  print("Good")
+elif (marks>=50):
+  print("C")
+  print("Better")
+elif (marks>=40):
+  print("D")
+  print("Require Improvement")
+else:
+  print("Fail")
